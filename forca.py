@@ -67,7 +67,7 @@ def main():
     if "_" not in palavra_atual:
         print(f"Parabéns! Você ganhou! A palavra era '{palavra_secreta}'.")
     else:
-        print(f"Você perdeu! A palavra era '{palavra_secreta}'.")
+        print(f"Você perdeu! A palavra era '{palavra_secreta}'.") 
 
 if __name__ == "__main__":
     main()
